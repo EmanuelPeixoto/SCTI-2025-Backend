@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Load environment variables from .env file
-if [ -f .env ]; then
-    source .env
-else
-    echo "Error: .env file not found"
-    exit 1
-fi
+# if [ -f .env ]; then
+#     source .env
+# else
+#     echo "Error: .env file not found"
+#     exit 1
+# fi
 
 # Set default values if not provided in .env
 DATABASE=${DATABASE:-"scti-db"}
